@@ -1,0 +1,4 @@
+telebot==0.0.4
+RPi.GPIO==0.7.0
+unidecode==1.2.0
+requests==2.26.0

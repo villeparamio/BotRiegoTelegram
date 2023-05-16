@@ -59,6 +59,7 @@ Para consultar el estado de la programación se utiliza el siguiente comando:
 /consultar_riego
 ```
 El bot responderá con la programación:
+
 ![programacion de riego](https://github.com/villeparamio/BotRiegoTelegram/blob/main/images/programacion_de_riego.png)
 
 Podemos configurar los días de la semana que se activará el riego, la hora a la que se activará y los minutos que estará el riego activo.
