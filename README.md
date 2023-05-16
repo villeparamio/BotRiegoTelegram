@@ -1,6 +1,6 @@
 # Sistema de Riego Automático con bot de Telegram
 
-Este proyecto es un sistema de riego automatizado controlado a través de un **bot de Telegram**. Permite encender y apagar el riego manualmente, así como programar el riego en días y horarios específicos. El sistema se implementa en una Raspberry Pi y utiliza la biblioteca de Python `telebot` para interactuar con la API de Telegram. 
+Este proyecto es un sistema de riego automatizado controlado a través de un **bot de Telegram**. Permite controlar un sistema de riego manualmente, así como programar el riego en días y horarios específicos. El sistema se implementa en una Raspberry Pi y utiliza la biblioteca de Python `telebot` para interactuar con la API de Telegram. 
 Para encender y apagar el riego, se hace uso de los puertos GPIO de la Raspberry Pi, que nos permite controlar un relé que active o desactive el mecanismo de riego. Como podría ser una bomba de agua en el caso de usar un depósito o una electroválvula si es agua corriente.
 ## Configuración
 
