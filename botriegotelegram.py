@@ -255,6 +255,8 @@ def verificar_riego_automatico():
         hora_actual = datetime.datetime.now().strftime('%H:%M')
 
         if config[hoy] and hora_actual == hora_riego:
+            if isinstance(config['tiempo_riego'], str):
+                config['tiempo_riego'] = int(config['tiempo_riego'])
             duracion = config['tiempo_riego'] * 60  # en segundos
             bot.send_message(chat_id,
                              text=f'Riego automático iniciado a las {hora_riego}. Duración: {duracion} segundos.')
